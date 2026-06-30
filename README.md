@@ -39,3 +39,15 @@ Navigate to the backend directory, install requirements, and boot the server:
 cd backend
 pip install fastapi uvicorn pandas scikit-learn
 python -m uvicorn main:app --reload
+
+### 2. Run the Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+The frontend will be available at:
+
+http://localhost:5173
